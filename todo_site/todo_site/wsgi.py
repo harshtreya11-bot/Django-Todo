@@ -14,3 +14,4 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo_site.settings')
 
 application = get_wsgi_application()
+app = application  # Ye line Vercel ke liye zaroori hai
